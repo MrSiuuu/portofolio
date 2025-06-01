@@ -57,7 +57,7 @@ const ExperiencesPage = () => {
         </div>
       </div>
       
-      <ToolsGrid title="Outils utilisés en alternance" tools={tools} />
+      <ToolsGrid title="Outils utilisés" tools={tools} />
       <ToolsGrid title="Langages de programmation" tools={languages} />
     </div>
   );
