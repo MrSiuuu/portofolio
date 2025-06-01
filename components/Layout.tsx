@@ -38,8 +38,8 @@ const Layout = ({ children }: LayoutProps) => {
       {!isDesktop && (
         <div className={styles.mobileOverlay}>
           <div className={styles.mobileMessage}>
-            <h2>Ce portfolio n'est accessible que sur ordinateur 💻</h2>
-            <p>Merci de revenir sur un écran plus large pour profiter de l'expérience complète.</p>
+            <h2>Ce portfolio n&apos;est accessible que sur ordinateur 💻</h2>
+            <p>Merci de revenir sur un écran plus large pour profiter de l&apos;expérience complète.</p>
           </div>
         </div>
       )}
