@@ -19,7 +19,7 @@ const ProjectPage = ({ project }: { project: Project }) => {
     return (
       <div className={styles.container}>
         <h1 className={styles.title}>Projet non trouvé</h1>
-        <p>Le projet que vous recherchez n'existe pas.</p>
+        <p>Le projet que vous recherchez n&apos;existe pas.</p>
         <Link href="/projects" className={styles.backLink}>
           <VscArrowLeft className={styles.backIcon} /> Retour aux projets
         </Link>

@@ -21,7 +21,7 @@ const ExperiencesPage = () => {
             </div>
             <h3 className={styles.expertiseCardTitle}>Développement Full Stack</h3>
             <p className={styles.expertiseDescription}>
-              Développement complet d'applications avec Node.js, Express, Vue, React, Angular et Supabase. Intégration API, sécurité, authentification, responsive UI.
+              Développement complet d&apos;applications avec Node.js, Express, Vue, React, Angular et Supabase. Intégration API, sécurité, authentification, responsive UI.
             </p>
           </div>
 
@@ -31,7 +31,7 @@ const ExperiencesPage = () => {
             </div>
             <h3 className={styles.expertiseCardTitle}>Conteneurisation & Déploiement</h3>
             <p className={styles.expertiseDescription}>
-              Déploiement d'applications web sur VPS (Ubuntu), Coolify, Vercel et autres plateformes. Maîtrise de Docker, gestion complète du cycle de vie des applications.
+              Déploiement d&apos;applications web sur VPS (Ubuntu), Coolify, Vercel et autres plateformes. Maîtrise de Docker, gestion complète du cycle de vie des applications.
             </p>
           </div>
 
