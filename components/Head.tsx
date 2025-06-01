@@ -10,19 +10,19 @@ const CustomHead = ({ title }: CustomHeadProps) => {
       <title>{title}</title>
       <meta
         name="description"
-        content="Nitin Ranganath is an avid full stack web developer building websites and applications you'd love to use"
+        content="Issa Kouyate est un développeur fullstack passionné, créant des applications web et mobiles performantes, des intégrations métiers, des workflows IA et des outils innovants."
       />
       <meta
         name="keywords"
-        content="nitin ranganath, nitin, ranganath, web developer portfolio, nitin web developer, nitin developer, mern stack, nitin ranganath portfolio, vscode-portfolio"
+        content="Issa Kouyate, développeur web, fullstack, Node.js, React, Angular, Supabase, Docker, IA, automatisation, outils métiers, portfolio développeur"
       />
-      <meta property="og:title" content="Nitin Ranganath's Portfolio" />
+      <meta property="og:title" content="Portfolio de Issa Kouyate" />
       <meta
         property="og:description"
-        content="A full-stack developer building websites that you'd like to use."
+        content="Développeur fullstack & chef de projet technique spécialisé en web, mobile, IA et automatisation."
       />
-      <meta property="og:image" content="https://imgur.com/4zi5KkQ.png" />
-      <meta property="og:url" content="https://vscode-portfolio.vercel.app" />
+      <meta property="og:image" content="https://kouyateissa.fr/logos/IK.png" />
+      <meta property="og:url" content="https://kouyateissa.fr" />
       <meta name="twitter:card" content="summary_large_image" />
     </Head>
   );
@@ -31,5 +31,5 @@ const CustomHead = ({ title }: CustomHeadProps) => {
 export default CustomHead;
 
 CustomHead.defaultProps = {
-  title: 'Nitin Ranganath',
+  title: 'KOUYATE Issa',
 };
