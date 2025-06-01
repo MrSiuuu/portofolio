@@ -1,3 +1,4 @@
+
 export interface Project {
   title: string;
   description: string;
@@ -16,9 +17,9 @@ export const projects: Project[] = [
     link: '', // à ajouter si tu as une démo ou repo GitHub
     slug: 'annuaire-guinea',
     longDescription:
-      `Développé pour centraliser les entreprises de Guinée, ce projet permet d’accéder à leur profil, de déposer des avis, d’échanger via une messagerie intégrée, et d’évaluer leur présence en ligne.
+      `Développé pour centraliser les entreprises de Guinée, ce projet permet d'accéder à leur profil, de déposer des avis, d'échanger via une messagerie intégrée, et d'évaluer leur présence en ligne.
   
-  L’interface est construite en Angular avec un backend Node.js et une base Supabase. Authentification par JWT et rôles distincts (admin, entreprise, utilisateur).`,
+  L'interface est construite en Angular avec un backend Node.js et une base Supabase. Authentification par JWT et rôles distincts (admin, entreprise, utilisateur).`,
     technologies: ['Angular', 'Node.js', 'Express', 'Supabase', 'PostgreSQL', 'JWT', 'Multer', 'Tailwind CSS']
   },
   {
@@ -30,9 +31,9 @@ export const projects: Project[] = [
     longDescription:
       `Genesixx Valley est une plateforme intelligente permettant aux étudiants de générer automatiquement un CV et une lettre de motivation adaptés aux démarches Campus France et Canada.
   
-  Le projet inclut l’authentification Supabase, la génération IA via OpenAI, l’export PDF avec Puppeteer, et le déploiement complet sur Ubuntu avec Coolify.
+  Le projet inclut l'authentification Supabase, la génération IA via OpenAI, l'export PDF avec Puppeteer, et le déploiement complet sur Ubuntu avec Coolify.
   
-  J’ai conçu l’architecture, développé le backend, intégré les services IA et géré l’interface multilingue.`,
+  J'ai conçu l'architecture, développé le backend, intégré les services IA et géré l'interface multilingue.`,
     technologies: ['React', 'Node.js', 'Express', 'Supabase', 'OpenAI API', 'Puppeteer', 'i18n', 'Tailwind CSS', 'Ubuntu', 'Coolify']
   },
   {
@@ -44,11 +45,11 @@ export const projects: Project[] = [
     longDescription:
       `Virtual Out permet de visiter virtuellement des restaurants, hôtels ou lieux publics via des modèles 3D interactifs (.glb).
   
-  J’ai intégré Three.js dans Vue.js, organisé l’interface avec Vite, et designé un rendu responsive avec Tailwind CSS. Ce projet est un prototype fonctionnel réalisé pour une démo commerciale.`,
+  J'ai intégré Three.js dans Vue.js, organisé l'interface avec Vite, et designé un rendu responsive avec Tailwind CSS. Ce projet est un prototype fonctionnel réalisé pour une démo commerciale.`,
     technologies: ['Vue.js', 'Vite', 'Tailwind CSS', 'Three.js', 'GLB Models']
   },
 
-  {
+  /*{
     title: 'Driwwwle',
     description:
       'Découvrez des sites web créatifs et des développeurs. Un portail pour partager vos projets.',
@@ -95,4 +96,6 @@ export const projects: Project[] = [
       'Ce projet a été développé pour simplifier le workflow des développeurs qui utilisent Coolify pour leurs déploiements.',
     technologies: ['TypeScript', 'VS Code API', 'Coolify API', 'Webpack']
   },
+  */
 ];
+
