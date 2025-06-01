@@ -1,0 +1,157 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+  color: var(--text-color);
+}
+
+.sectionTitle {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: var(--accent-color);
+}
+
+.timeline {
+  position: relative;
+  padding: 2rem 0;
+}
+
+.timelineLine {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 2px;
+  background-color: var(--accent-color);
+  transform: translateX(-50%);
+}
+
+.experienceItem {
+  position: relative;
+  margin-bottom: 4rem;
+  width: 100%;
+  display: flex;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.experienceItem.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.timelinePoint {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.logoContainer {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: var(--article-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--accent-color);
+  overflow: hidden;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.content {
+  width: 45%;
+  padding: 2.5rem;
+  background: var(--article-bg);
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.right .content {
+  margin-left: auto;
+}
+
+.left .content {
+  margin-right: auto;
+}
+
+.period {
+  top: 0;
+  font-size: 0.9rem;
+  color: var(--text-color);
+  opacity: 0.8;
+}
+
+.right .period {
+  left: calc(50% + 50px);
+}
+
+.left .period {
+  right: calc(50% + 50px);
+  text-align: right;
+}
+
+.title {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: var(--accent-color);
+}
+
+.company {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  opacity: 0.8;
+}
+
+.description {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 768px) {
+  .timelineLine {
+    left: 30px;
+  }
+  
+  .timelinePoint {
+    left: 30px;
+  }
+  
+  .logoContainer {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .logo {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .content {
+    width: calc(100% - 80px);
+    margin-left: 80px !important;
+  }
+  
+  .period {
+    position: relative;
+    top: auto;
+    left: auto !important;
+    right: auto !important;
+    text-align: left;
+    margin-bottom: 0.5rem;
+  }
+  
+  .right .period, .left .period {
+    position: static;
+    margin-bottom: 0.5rem;
+    text-align: left;
+  }
+} 

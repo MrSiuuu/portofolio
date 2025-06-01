@@ -1,0 +1,120 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding-top: 1rem;
+} 
+
+/* Styles pour la section d'expertise */
+.expertiseSection {
+  width: 100%;
+  max-width: 1000px;
+  margin: 4rem auto 0;
+  padding: 2rem;
+  position: relative;
+}
+
+.expertiseTitle {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: var(--accent-color);
+}
+
+.expertiseGrid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.expertiseCard {
+  background: var(--article-bg);
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  flex: 1;
+  min-width: 0; /* Important pour permettre le rétrécissement */
+}
+
+.expertiseCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  border-color: var(--accent-color);
+}
+
+.expertiseIcon {
+  font-size: 2rem;
+  color: var(--accent-color);
+  margin-bottom: 1rem;
+}
+
+.expertiseCardTitle {
+  font-size: 1.2rem;
+  margin-bottom: 0.75rem;
+  color: var(--text-color);
+}
+
+.expertiseDescription {
+  color: var(--text-secondary, rgba(255, 255, 255, 0.7));
+  line-height: 1.5;
+  font-size: 0.9rem;
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+  .expertiseGrid {
+    flex-wrap: wrap;
+  }
+  
+  .expertiseCard {
+    flex-basis: calc(50% - 1rem);
+    min-width: calc(50% - 1rem);
+  }
+}
+
+@media (max-width: 768px) {
+  .expertiseSection {
+    padding: 1.5rem;
+    margin-top: 3rem;
+  }
+  
+  .expertiseTitle {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .expertiseGrid {
+    flex-direction: column;
+  }
+  
+  .expertiseCard {
+    width: 100%;
+  }
+  
+  .expertiseIcon {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .expertiseCardTitle {
+    font-size: 1.3rem;
+  }
+} 
+/* Ajouter ce style pour créer un séparateur visuel */
+.expertiseSection::before {
+  content: '';
+  display: block;
+  width: 80%;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(var(--accent-color-rgb), 0.3),
+    transparent
+  );
+  margin: 0 auto 4rem;
+} 
