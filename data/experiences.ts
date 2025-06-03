@@ -4,7 +4,7 @@ export const experiences: Experience[] = [
   {
     title: 'Développeur Fullstack & Chef de projet technique',
     company: 'InfoBoost',
-    logo: '/logos/infoBoost.webp',
+    logo: '/logos/infoboost.webp',
     period: 'Décembre 2024 – Aujourd’hui',
     description: `Stage prolongé. Automatisation des processus de vente et intégration d’Odoo. Développement de sites WordPress sans builder, création de workflows avec n8n (création produits WooCommerce, suppression automatique de produits expirés de Google Merchant). Intégration d’un chatbot IA pour configuration de PC gamer. Développement d’un agent IA pour l’envoi automatisé d’offres sur Backmarket. Script Bash + douchette Zebra pour enregistrement rapide de produits. Suivi campagnes Google Ads. Encadrement de 3 stagiaires.`,
     isRight: true
