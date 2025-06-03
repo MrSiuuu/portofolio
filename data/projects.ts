@@ -1,4 +1,3 @@
-
 export interface Project {
   title: string;
   description: string;
@@ -26,7 +25,7 @@ export const projects: Project[] = [
     title: 'Genesixx Valley',
     description: 'Plateforme IA de génération de CV et lettres pour Campus France et Canada.',
     logo: '/logos/perso.png',
-    link: 'https://github.com/MrSiuuu/genesixx-valley', // ou autre lien si privé
+    link: 'https://github.com/MrSiuuu/genesixx-valley', // ou autre lien si privé // ou autre lien si privé
     slug: 'genesixx-valley',
     longDescription:
       `Genesixx Valley est une plateforme intelligente permettant aux étudiants de générer automatiquement un CV et une lettre de motivation adaptés aux démarches Campus France et Canada.
@@ -54,7 +53,7 @@ export const projects: Project[] = [
     description:
       'Découvrez des sites web créatifs et des développeurs. Un portail pour partager vos projets.',
     logo: '/logos/driwwwle.svg',
-    link: 'https://github.com/itsnitinr/driwwwle',
+    link: 'https://github.com/MrSiuuu',
     slug: 'driwwwle',
     longDescription: 
       'Driwwwle est une plateforme communautaire pour les développeurs web et designers.\n\n' +
@@ -67,7 +66,7 @@ export const projects: Project[] = [
     description:
       'A Visual Studio Code themed developer portfolio built with Next.js and CSS Modules.',
     logo: '/logos/vsc.svg',
-    link: 'https://github.com/itsnitinr/vscode-portfolio',
+    link: 'https://github.com/MrSiuuu',
     slug: 'vscode-portfolio',
   },
   {
@@ -75,7 +74,7 @@ export const projects: Project[] = [
     description:
       'Une façon simple et élégante de suivre vos abonnements et économiser de l\'argent.',
     logo: '/logos/subtrackt.svg',
-    link: 'https://github.com/itsnitinr/subtrackt',
+    link: 'https://github.com/MrSiuuu',
     slug: 'subtrackt',
     longDescription: 
       'Subtrackt est une application qui vous aide à garder une trace de tous vos abonnements mensuels et annuels.\n\n' +
@@ -88,7 +87,7 @@ export const projects: Project[] = [
     description:
       'Extension VSCode pour suivre et déployer vos applications Coolify.',
     logo: '/logos/coolify.svg',
-    link: 'https://github.com/itsnitinr/coolify-vscode-extension',
+    link: 'https://github.com/MrSiuuu',
     slug: 'coolify-vscode-extension',
     longDescription: 
       'Cette extension VSCode s\'intègre avec Coolify, une plateforme d\'auto-hébergement open-source.\n\n' +
