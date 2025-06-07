@@ -3,8 +3,8 @@ import styles from '@/styles/ContactCode.module.css';
 const contactItems = [
   {
     social: 'website',
-    link: 'kouyateissa.fr',
-    href: 'https://kouyateissa.fr',
+    link: 'kouyateissa.com',
+    href: 'https://kouyateissa.com',
   },
   {
     social: 'email',
